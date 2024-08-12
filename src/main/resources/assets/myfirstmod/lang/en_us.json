@@ -1,6 +1,9 @@
 {
   "item.myfirstmod.treebark": "Tree Bark",
   "item.myfirstmod.burnt_treebark": "Burnt Tree Bark",
+  "item.myfirstmod.carved_netherite_ingot": "Carved Netherite Ingot",
+
+  "block.myfirstmod.carved_netherite_block": "Block of Carved Netherite",
 
   "creativetab.modded_tab": "SUPER COOL MODDED TAB!"
 }

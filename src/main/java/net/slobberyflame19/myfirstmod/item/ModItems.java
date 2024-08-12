@@ -17,6 +17,9 @@ public class ModItems {
     public static final RegistryObject<Item> BURNT_TREEBARK = ITEMS.register("burnt_treebark",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> CARVED_NETHERITE_INGOT = ITEMS.register("carved_netherite_ingot",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

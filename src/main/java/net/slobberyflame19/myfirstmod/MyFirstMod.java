@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.slobberyflame19.myfirstmod.block.ModBlocks;
 import net.slobberyflame19.myfirstmod.item.ModCreativeModTabs;
 import net.slobberyflame19.myfirstmod.item.ModItems;
 import org.slf4j.Logger;
@@ -30,6 +31,7 @@ public class MyFirstMod {
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

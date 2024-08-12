@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.slobberyflame19.myfirstmod.MyFirstMod;
+import net.slobberyflame19.myfirstmod.block.ModBlocks;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -20,6 +21,8 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.TREEBARK.get());
                         output.accept(ModItems.BURNT_TREEBARK.get());
+                        output.accept(ModItems.CARVED_NETHERITE_INGOT.get());
+                        output.accept(ModBlocks.CARVED_NETHERITE_BLOCK.get());
                     })
                     .build());
 
