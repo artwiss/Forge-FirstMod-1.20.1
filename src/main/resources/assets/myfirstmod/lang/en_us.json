@@ -3,8 +3,16 @@
   "item.myfirstmod.burnt_treebark": "Burnt Tree Bark",
   "item.myfirstmod.carved_netherite_ingot": "Carved Netherite Ingot",
   "item.myfirstmod.monkey_paw": "Monkey Paw",
+  "item.myfirstmod.chess_white_pawn": "White Pawn",
+  "item.myfirstmod.chess_black_pawn": "Black Pawn",
+  "item.myfirstmod.chess_white_king": "White King",
+  "item.myfirstmod.chess_black_king": "Black King",
+  "item.myfirstmod.the_fool_tarot": "The Fool",
 
   "block.myfirstmod.carved_netherite_block": "Block of Carved Netherite",
+  "block.myfirstmod.gunpowder_block": "Block of Gunpowder",
 
-  "creativetab.modded_tab": "SUPER COOL MODDED TAB!"
+  "creativetab.modded_tab": "SUPER COOL MODDED TAB!",
+  "creativetab.chess_tab": "Chess",
+  "creativetab.tarot_tab": "Tarot Cards"
 }

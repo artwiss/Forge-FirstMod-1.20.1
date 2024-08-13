@@ -21,6 +21,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> CARVED_NETHERITE_BLOCK = registerBlock("carved_netherite_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)));
 
+    public static final RegistryObject<Block> GUNPOWDER_BLOCK = registerBlock("gunpowder_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.SAND)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

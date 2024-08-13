@@ -23,7 +23,25 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.BURNT_TREEBARK.get());
                         output.accept(ModItems.CARVED_NETHERITE_INGOT.get());
                         output.accept(ModBlocks.CARVED_NETHERITE_BLOCK.get());
+                        output.accept(ModBlocks.GUNPOWDER_BLOCK.get());
                         output.accept(ModItems.MONKEY_PAW.get());
+                    })
+                    .build());
+    public static final RegistryObject<CreativeModeTab> CHESS_TAB = CREATIVE_MODE_TABS.register("chess_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CHESS_WHITE_KING.get()))
+                    .title(Component.translatable("creativetab.chess_tab"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.CHESS_WHITE_PAWN.get());
+                        output.accept(ModItems.CHESS_BLACK_PAWN.get());
+                        output.accept(ModItems.CHESS_WHITE_KING.get());
+                        output.accept(ModItems.CHESS_BLACK_KING.get());
+                    })
+                    .build());
+    public static final RegistryObject<CreativeModeTab> TAROT_TAB = CREATIVE_MODE_TABS.register("tarot_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.THE_FOOL_TAROT.get()))
+                    .title(Component.translatable("creativetab.tarot_tab"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.THE_FOOL_TAROT.get());
                     })
                     .build());
 

@@ -23,8 +23,19 @@ public class ModItems {
     public static final RegistryObject<Item> MONKEY_PAW = ITEMS.register("monkey_paw",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> CHESS_WHITE_PAWN = ITEMS.register("chess_white_pawn",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CHESS_BLACK_PAWN = ITEMS.register("chess_black_pawn",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CHESS_WHITE_KING = ITEMS.register("chess_white_king",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CHESS_BLACK_KING = ITEMS.register("chess_black_king",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> THE_FOOL_TAROT = ITEMS.register("the_fool_tarot",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
-
 }
