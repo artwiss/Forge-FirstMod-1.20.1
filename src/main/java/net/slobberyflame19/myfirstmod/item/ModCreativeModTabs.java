@@ -23,6 +23,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.BURNT_TREEBARK.get());
                         output.accept(ModItems.CARVED_NETHERITE_INGOT.get());
                         output.accept(ModBlocks.CARVED_NETHERITE_BLOCK.get());
+                        output.accept(ModItems.MONKEY_PAW.get());
                     })
                     .build());
 
